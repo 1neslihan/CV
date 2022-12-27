@@ -1,0 +1,150 @@
+body {
+  margin: 0px;
+  border-style: solid;
+  border-width: 9px;
+  border-color: black;
+  font-family: serif;
+  color: #434242;
+}
+
+h1 {
+  margin: 0 auto 0 auto;
+  padding: 80px 0 0 0;
+  font-family: "Sacramento", cursive;
+  font-size: 4rem; /* 16px=100%=1em   % ve em kalıtılan biçimlerdir body ögesinde font-size tanımlaması yaparsam üst üste toplar ve onu yayınlar bunun için rem kullanabiliriz*/
+  color: #66bfbf;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.3rem;
+  font-family: "Montserrat";
+  color: #66bfbf;
+  font-weight: bold;
+}
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.8rem;
+  color: #11999e;
+}
+
+a {
+  color: #11999e;
+}
+
+p {
+  font-size: 1.3rem;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dashed;
+  border-width: 5px;
+  color: #16213e;
+  width: 20%;
+}
+
+.top-container {
+  background-color: #e6fbfb;
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+.cloud {
+  position: absolute;
+}
+
+.up {
+  right: 180px;
+  top: 80px;
+}
+
+.down {
+  left: 180px;
+}
+
+.middle-container {
+  background-color: white;
+  position: relative;
+  text-align: center;
+  padding: 15px 0 15px 0;
+}
+
+.profile {
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  line-height: 2;
+}
+
+.information-about-me {
+  width: 70%;
+  margin: 10px auto 50px auto;
+}
+
+.skills {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.skill-imgR {
+  width: 25%;
+  float: left;
+  padding: 0 30px 0 0;
+}
+
+.skill-imgL {
+  width: 25%;
+  float: right;
+  padding: 0 0 0 30px;
+}
+
+.contact-me {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  border-radius: 8px;
+  border-style: none;
+  background-color: lightseagreen;
+  font-size: 1.2rem;
+  padding: 10px 15px;
+  margin-top: 15px;
+  color: azure;
+  transition: font-size 1s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: powderblue;
+  font-size: 1.5rem;
+}
+
+.bottom-container {
+  background-color: #66bfbf;
+  text-align: center;
+  padding: 15px 0 15px 0;
+  font-weight: bold;
+}
+
+.footer-link {
+  opacity: 1;
+  margin: 5px;
+}
+
+.footer-link:hover {
+  opacity: 0.5;
+}
+.footer {
+  margin-bottom: 0;
+}
